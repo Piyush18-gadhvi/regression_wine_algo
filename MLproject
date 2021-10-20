@@ -1,6 +1,6 @@
 name: tutorial
 conda_env: conda.yaml
-entry_points: train.py
+entry_points:
   main:
     parameters:
       alpha: {type: float, default: 0.3}
